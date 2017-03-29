@@ -1,2 +1,2 @@
 # trydjango
-learn django with python3 virtual environment project
+simple todo app for learning django 
