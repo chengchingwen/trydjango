@@ -1,16 +1,16 @@
 """
-WSGI config for py3VEproj project.
+WSGI config for TODO_app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "py3VEproj.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "TODO_app.settings")
 
 application = get_wsgi_application()
